@@ -70,3 +70,4 @@ Follow the steps below to run the project on your local machine:
 - `src/main/resources/arac/`: Contains FXML UI files and CSS style files.
 - `araclar.txt`: A text-based database where vehicle data is stored.
 - `pom.xml`: Contains the project's Maven dependencies and configuration settings.
+\n## Learning Outcomes\n- Mastery of fundamental data structures (HashMap, ArrayList, etc.)\n- Understanding of O(n) complexity in real-world scenarios\n- Experience in building GUI applications with JavaFX
