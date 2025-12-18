@@ -1,304 +1,306 @@
-# 🎯 Araç Kiralama Yönetim Sistemi v2.0 - Tüm Özellikler
+# 🎯 Car Rental Management System v2.0 - All Features
 
-## 📋 Özellik Listesi (30+ Özellik)
+![Car Rental System](car-rental-system.png)
 
-### 🎨 Kullanıcı Arayüzü Özellikleri
+## 📋 Feature List (30+ Features)
 
-1. **Modern Gradient Tasarım**
-   - Mavi tonlarında profesyonel gradient arka plan
-   - Göz yormayan renk paleti
-   - Gölge efektleri ile derinlik
+### 🎨 User Interface Features
 
-2. **ScrollPane ile Kaydırılabilir Filtre Paneli**
-   - 20+ filtre seçeneği
-   - Dikey kaydırma ile tüm filtrelere erişim
-   - Responsive tasarım
+1. **Modern Gradient Design**
+   - Professional gradient background in blue tones
+   - Eye-friendly color palette
+   - Depth with shadow effects
 
-3. **Tam Ekran Modu**
-   - F11 tuşu veya buton ile aktifleştirme
-   - ESC ile çıkış
-   - Dinamik pencere boyutlandırma
+2. **ScrollPane with Scrollable Filter Panel**
+   - 20+ filter options
+   - Access to all filters with vertical scrolling
+   - Responsive design
 
-4. **Animasyonlu Geçişler**
-   - Fade-in animasyonları
-   - Yumuşak geçişler
-   - Kullanıcı dostu deneyim
+3. **Full Screen Mode**
+   - Activation with F11 key or button
+   - Exit with ESC
+   - Dynamic window resizing
 
-5. **Responsive Butonlar**
-   - Renkli, yuvarlak köşeli modern butonlar
-   - Emoji ikonları ile görsel zenginlik
-   - Hover efektleri
+4. **Animated Transitions**
+   - Fade-in animations
+   - Smooth transitions
+   - User-friendly experience
 
-6. **Dinamik Durum Çubuğu**
-   - Alt kısımda bilgilendirme çubuğu
-   - Gerçek zamanlı tarih/saat
-   - Kayıt sayısı göstergesi
+5. **Responsive Buttons**
+   - Colorful, rounded corner modern buttons
+   - Visual richness with emoji icons
+   - Hover effects
 
----
-
-### 📊 Dashboard ve İstatistikler
-
-7. **Canlı İstatistik Kartları**
-   - Toplam araç sayısı
-   - Mevcut araç sayısı (yeşil kart)
-   - Kiralanmış araç sayısı (kırmızı kart)
-   - Bakımdaki araç sayısı (sarı kart)
-   - Tahmini aylık gelir (mor kart)
-
-8. **Otomatik Güncelleme**
-   - Her işlemde istatistikler güncellenir
-   - Gerçek zamanlı veri gösterimi
-
-9. **Görsel Veri Sunumu**
-   - Renkli kartlar ile kategorizasyon
-   - Büyük fontlar ile kolay okunabilirlik
-   - Gölge efektleri ile vurgu
+6. **Dynamic Status Bar**
+   - Information bar at the bottom
+   - Real-time date/time
+   - Record count indicator
 
 ---
 
-### 🔍 Arama ve Filtreleme
+### 📊 Dashboard and Statistics
 
-10. **Gerçek Zamanlı Metin Arama**
-    - Yazdıkça sonuç filtreleme
-    - Marka, model, plaka araması
-    - Büyük/küçük harf duyarsız
+7. **Live Statistics Cards**
+   - Total vehicle count
+   - Available vehicle count (green card)
+   - Rented vehicle count (red card)
+   - Vehicles in maintenance (yellow card)
+   - Estimated monthly revenue (purple card)
 
-11. **Marka Filtresi**
-    - 12 farklı marka seçeneği
-    - Çoklu seçim desteği
-    - Checkbox ile kolay seçim
+8. **Automatic Updates**
+   - Statistics update with each operation
+   - Real-time data display
 
-12. **Yakıt Tipi Filtresi**
-    - Benzin, Diesel, Hibrid, Elektrik, LPG
-    - Emoji ikonları ile görsel destek
-
-13. **Sınıf Filtresi**
-    - Ekonomi, Komfort, Lux, SUV
-    - Çoklu seçim
-
-14. **Durum Filtresi**
-    - Mevcut, Kiralanmış, Bakımda
-    - Checkbox ile seçim
-
-15. **Fiyat Aralığı Filtresi**
-    - Minimum ve maksimum fiyat girişi
-    - Dinamik filtreleme
-
-16. **Yolcu Sayısı Filtresi**
-    - 2, 4, 5, 7 kişilik seçenekler
-
-17. **Özellik Filtresi**
-    - Klima var/yok
-    - Otopark var/yok
-
-18. **Vites Tipi Filtresi**
-    - Otomatik/Manuel
-
-19. **Renk Filtresi**
-    - Radio button ile tek seçim
-    - Siyah, Beyaz, Gri, Kırmızı, Mavi
-
-20. **Favori Filtresi**
-    - Sadece favori araçları göster
-
-21. **Filtreleri Temizle**
-    - Tek tuşla tüm filtreleri sıfırla
+9. **Visual Data Presentation**
+   - Categorization with colorful cards
+   - Easy readability with large fonts
+   - Emphasis with shadow effects
 
 ---
 
-### 🖼️ Görsel Özellikler
+### 🔍 Search and Filtering
 
-22. **Araç Resimleri**
-    - Her araç için thumbnail resim
-    - Tabloda görüntüleme
-    - 60x40 boyutunda optimize edilmiş
+10. **Real-Time Text Search**
+    - Filter results as you type
+    - Brand, model, license plate search
+    - Case-insensitive
 
-23. **Favori Sistemi**
-    - Yıldız ikonu ile işaretleme
-    - Dolu/boş yıldız gösterimi
-    - Tek tıkla favori ekleme/çıkarma
+11. **Brand Filter**
+    - 12 different brand options
+    - Multiple selection support
+    - Easy selection with checkbox
 
-24. **Renkli Durum Göstergesi**
-    - Yeşil: Mevcut
-    - Kırmızı: Kiralanmış
-    - Sarı: Bakımda
-    - Otomatik renklendirme
+12. **Fuel Type Filter**
+    - Gasoline, Diesel, Hybrid, Electric, LPG
+    - Visual support with emoji icons
 
-25. **Görüntülenme Sayacı**
-    - Her araca tıklandığında sayaç artar
-    - Popüler araçları takip
-    - Tabloda gösterim
+13. **Class Filter**
+    - Economy, Comfort, Luxury, SUV
+    - Multiple selection
 
----
+14. **Status Filter**
+    - Available, Rented, In Maintenance
+    - Selection with checkbox
 
-### 🛠️ Fonksiyonel Özellikler
+15. **Price Range Filter**
+    - Minimum and maximum price input
+    - Dynamic filtering
 
-26. **Araç Ekleme**
-    - Tam ekran form
-    - 26 farklı alan
-    - Veri doğrulama
+16. **Passenger Count Filter**
+    - Options for 2, 4, 5, 7 passengers
 
-27. **Araç Güncelleme**
-    - Seçili aracı düzenleme
-    - Otomatik form doldurma
-    - Anlık kaydetme
+17. **Feature Filter**
+    - Air conditioning available/not available
+    - Parking available/not available
 
-28. **Araç Silme**
-    - Onay penceresi ile güvenli silme
-    - Seçili araç bilgilerini gösterme
+18. **Transmission Type Filter**
+    - Automatic/Manual
 
-29. **Araç Bilgileri**
-    - Detaylı bilgi penceresi
-    - Tüm alanları görüntüleme
+19. **Color Filter**
+    - Single selection with radio button
+    - Black, White, Gray, Red, Blue
 
-30. **Excel'e Aktarma**
-    - Apache POI ile .xlsx oluşturma
-    - Filtrelenmiş listeyi export etme
-    - Otomatik dosya adı (tarih damgalı)
-    - 13 sütunlu detaylı rapor
+20. **Favorite Filter**
+    - Show only favorite vehicles
 
-31. **Veri Yedekleme**
-    - Otomatik tarih damgalı yedek
-    - `araclar_yedek_YYYYMMDD_HHMMSS.txt` formatı
-    - Tek tuşla yedekleme
-
-32. **Bildirim Sistemi**
-    - Durum çubuğunda renkli mesajlar
-    - Başarı (yeşil), Hata (kırmızı), Bilgi (mavi)
-    - 3 saniye sonra kaybolma
-
-33. **Gerçek Zamanlı Saat**
-    - Alt çubukta tarih ve saat
-    - Her saniye güncelleme
-    - `dd.MM.yyyy HH:mm:ss` formatı
+21. **Clear Filters**
+    - Reset all filters with one button
 
 ---
 
-### 💾 Veri Yönetimi
+### 🖼️ Visual Features
 
-34. **Gelişmiş Araç Modeli**
-    - 26 farklı özellik
-    - JavaFX Property'leri ile reaktif veri
-    - Otomatik güncelleme
+22. **Vehicle Images**
+    - Thumbnail image for each vehicle
+    - Display in table
+    - Optimized 60x40 size
 
-35. **HashMap ile Hızlı Erişim**
-    - O(1) karmaşıklığında ekleme/silme/arama
-    - UUID bazlı benzersiz ID
+23. **Favorite System**
+    - Mark with star icon
+    - Full/empty star display
+    - Add/remove favorite with one click
 
-36. **TreeMap ile Sıralı Erişim**
-    - Fiyata göre otomatik sıralama
-    - O(log n) karmaşıklığında aralık sorguları
+24. **Colorful Status Indicator**
+    - Green: Available
+    - Red: Rented
+    - Yellow: In Maintenance
+    - Automatic coloring
 
-37. **Dosya Bazlı Kalıcılık**
-    - `araclar.txt` dosyasında veri saklama
-    - Pipe (|) ayırıcı ile yapılandırılmış format
-    - Otomatik kaydetme
-
-38. **Veri Bütünlüğü**
-    - Null kontrolleri
-    - Veri doğrulama
-    - Hata yönetimi
+25. **View Counter**
+    - Counter increases with each vehicle click
+    - Track popular vehicles
+    - Display in table
 
 ---
 
-### 🎯 Kullanıcı Deneyimi
+### 🛠️ Functional Features
 
-39. **Minimize/Maximize Butonları**
-    - Pencere kontrolü
-    - Özel tasarlanmış butonlar
+26. **Add Vehicle**
+    - Full screen form
+    - 26 different fields
+    - Data validation
 
-40. **Çıkış Onayı**
-    - Kapatmadan önce onay penceresi
-    - Veri kaybını önleme
+27. **Update Vehicle**
+    - Edit selected vehicle
+    - Automatic form filling
+    - Instant saving
 
-41. **Tema Değiştirme Butonu**
-    - Karanlık/Aydınlık tema (hazır altyapı)
-    - Gelecek versiyonlarda aktif olacak
+28. **Delete Vehicle**
+    - Safe deletion with confirmation window
+    - Display selected vehicle information
 
-42. **Dashboard Butonu**
-    - İstatistik ekranına hızlı erişim (hazır altyapı)
+29. **Vehicle Information**
+    - Detailed information window
+    - View all fields
+
+30. **Export to Excel**
+    - Create .xlsx with Apache POI
+    - Export filtered list
+    - Automatic file name (with timestamp)
+    - Detailed report with 13 columns
+
+31. **Data Backup**
+    - Automatic timestamped backup
+    - `araclar_yedek_YYYYMMDD_HHMMSS.txt` format
+    - Backup with one button
+
+32. **Notification System**
+    - Colored messages in status bar
+    - Success (green), Error (red), Info (blue)
+    - Disappears after 3 seconds
+
+33. **Real-Time Clock**
+    - Date and time in bottom bar
+    - Updates every second
+    - `dd.MM.yyyy HH:mm:ss` format
 
 ---
 
-### 📈 İstatistik ve Takip
+### 💾 Data Management
 
-43. **Görüntülenme Takibi**
-    - Her aracın kaç kez görüntülendiği
-    - Son görüntülenme tarihi
+34. **Advanced Vehicle Model**
+    - 26 different properties
+    - Reactive data with JavaFX Properties
+    - Automatic updates
 
-44. **Bakım Takibi**
-    - Son bakım tarihi
-    - Gelecek bakım tarihi
-    - Bakım durumu (İyi/Orta/Bakım Gerekli)
+35. **Fast Access with HashMap**
+    - O(1) complexity for add/delete/search
+    - UUID-based unique ID
 
-45. **Favori Takibi**
-    - Hangi araçların favori olduğu
-    - Favori sayısı
+36. **Sorted Access with TreeMap**
+    - Automatic sorting by price
+    - O(log n) complexity for range queries
 
-46. **Gelir Hesaplama**
-    - Kiralanmış araçlardan tahmini aylık gelir
-    - Otomatik hesaplama
+37. **File-Based Persistence**
+    - Data storage in `araclar.txt` file
+    - Structured format with pipe (|) separator
+    - Automatic saving
+
+38. **Data Integrity**
+    - Null checks
+    - Data validation
+    - Error handling
 
 ---
 
-### 🔧 Teknik Özellikler
+### 🎯 User Experience
 
-47. **Maven Bağımlılık Yönetimi**
-    - Otomatik kütüphane indirme
-    - Versiyon kontrolü
+39. **Minimize/Maximize Buttons**
+    - Window control
+    - Custom designed buttons
 
-48. **Java 17 Desteği**
-    - Modern Java özellikleri
-    - Performans iyileştirmeleri
+40. **Exit Confirmation**
+    - Confirmation window before closing
+    - Prevent data loss
+
+41. **Theme Toggle Button**
+    - Dark/Light theme (ready infrastructure)
+    - Will be active in future versions
+
+42. **Dashboard Button**
+    - Quick access to statistics screen (ready infrastructure)
+
+---
+
+### 📈 Statistics and Tracking
+
+43. **View Tracking**
+    - How many times each vehicle has been viewed
+    - Last view date
+
+44. **Maintenance Tracking**
+    - Last maintenance date
+    - Next maintenance date
+    - Maintenance status (Good/Medium/Maintenance Required)
+
+45. **Favorite Tracking**
+    - Which vehicles are favorites
+    - Favorite count
+
+46. **Revenue Calculation**
+    - Estimated monthly revenue from rented vehicles
+    - Automatic calculation
+
+---
+
+### 🔧 Technical Features
+
+47. **Maven Dependency Management**
+    - Automatic library download
+    - Version control
+
+48. **Java 17 Support**
+    - Modern Java features
+    - Performance improvements
 
 49. **JavaFX 21.0.2**
-    - En güncel UI framework
-    - Zengin kontrol seti
+    - Latest UI framework
+    - Rich control set
 
-50. **Apache POI Entegrasyonu**
-    - Excel okuma/yazma
-    - Profesyonel raporlama
+50. **Apache POI Integration**
+    - Excel read/write
+    - Professional reporting
 
 ---
 
-## 🎓 Eğitsel Değer
+## 🎓 Educational Value
 
-Bu proje aşağıdaki konuları kapsamaktadır:
+This project covers the following topics:
 
-- ✅ Veri Yapıları (HashMap, TreeMap)
-- ✅ JavaFX ile GUI Programlama
-- ✅ FXML ile MVC Pattern
-- ✅ Dosya İşlemleri
+- ✅ Data Structures (HashMap, TreeMap)
+- ✅ GUI Programming with JavaFX
+- ✅ MVC Pattern with FXML
+- ✅ File Operations
 - ✅ Event Handling
 - ✅ Property Binding
-- ✅ Lambda İfadeleri
+- ✅ Lambda Expressions
 - ✅ Stream API
-- ✅ Maven Kullanımı
-- ✅ Kütüphane Entegrasyonu
+- ✅ Maven Usage
+- ✅ Library Integration
 
 ---
 
-## 📊 Karşılaştırma: v1.0 vs v2.0
+## 📊 Comparison: v1.0 vs v2.0
 
-| Özellik | v1.0 | v2.0 |
+| Feature | v1.0 | v2.0 |
 |---------|------|------|
-| Toplam Özellik | 6 | 50+ |
-| Araç Özellikleri | 20 | 26 |
-| Filtre Sayısı | 8 | 20+ |
-| Görsel Öğeler | Yok | Resimler, İkonlar |
-| İstatistik | Yok | 5 Kart |
-| Export | Yok | Excel |
-| Yedekleme | Yok | Var |
-| Bildirimler | Basit Alert | Dinamik Durum Çubuğu |
-| Tasarım | Basit | Modern Gradient |
-| ScrollPane | Yok | Var |
-| Tam Ekran | Yok | Var |
-| Favori Sistemi | Yok | Var |
-| Görüntülenme | Yok | Var |
-| Bakım Takibi | Yok | Var |
+| Total Features | 6 | 50+ |
+| Vehicle Properties | 20 | 26 |
+| Filter Count | 8 | 20+ |
+| Visual Elements | None | Images, Icons |
+| Statistics | None | 5 Cards |
+| Export | None | Excel |
+| Backup | None | Yes |
+| Notifications | Simple Alert | Dynamic Status Bar |
+| Design | Simple | Modern Gradient |
+| ScrollPane | None | Yes |
+| Full Screen | None | Yes |
+| Favorite System | None | Yes |
+| View Tracking | None | Yes |
+| Maintenance Tracking | None | Yes |
 
 ---
 
-**Toplam Özellik Sayısı: 50+**
+**Total Feature Count: 50+**
 
-Bu liste, projenin ne kadar kapsamlı ve profesyonel bir seviyeye ulaştığını göstermektedir. Her özellik, kullanıcı deneyimini iyileştirmek ve gerçek dünya uygulamalarına yakınlaşmak için eklenmiştir.
+This list demonstrates how comprehensive and professional the project has become. Each feature has been added to improve user experience and approach real-world applications.
