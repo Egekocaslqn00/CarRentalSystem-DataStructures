@@ -1,5 +1,7 @@
 # Araç Kiralama Sistemi - Veri Yapıları Projesi
 
+![Car Rental System](car-rental-system.png)
+
 Bu proje, Java ve JavaFX kullanılarak geliştirilmiş bir masaüstü araç kiralama yönetim sistemidir. Proje, veri yapıları dersi kapsamında, temel veri yapılarının pratik uygulamasını göstermek amacıyla oluşturulmuştur.
 
 ---

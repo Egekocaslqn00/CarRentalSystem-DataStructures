@@ -1,5 +1,7 @@
 # 🚗 Araç Kiralama Yönetim Sistemi v2.0
 
+![Car Rental System](car-rental-system.png)
+
 ## Proje Hakkında
 
 **Araç Kiralama Yönetim Sistemi v2.0**, JavaFX kullanılarak geliştirilmiş, modern ve zengin özellikli bir masaüstü uygulamasıdır. Bu sistem, araç kiralama şirketlerinin envanterini verimli bir şekilde yönetmelerine olanak tanır. Proje, veri yapıları dersinde öğrenilen **HashMap** ve **TreeMap** yapılarının pratik uygulamasını göstermektedir.

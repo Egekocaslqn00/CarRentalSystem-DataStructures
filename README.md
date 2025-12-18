@@ -1,5 +1,7 @@
 # Car Rental System - Data Structures Project
 
+![Car Rental System](car-rental-system.png)
+
 This project is a desktop car rental management system developed using Java and JavaFX. It was created as part of a data structures course to demonstrate the practical application of fundamental data structures.
 
 ---
