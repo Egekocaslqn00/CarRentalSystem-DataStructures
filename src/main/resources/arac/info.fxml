@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="arac.InfoController">
+    <children>
+        <VBox spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="60.0" style="-fx-background-color: #34495e; -fx-padding: 15;">
+                    <children>
+                        <Label text="ARAÇ DETAYLARI" textFill="WHITE">
+                            <font><Font name="System Bold" size="20.0" /></font>
+                        </Label>
+                    </children>
+                </HBox>
+
+                <ScrollPane fitToWidth="true" style="-fx-background-color: transparent;">
+                    <content>
+                        <VBox spacing="15.0" style="-fx-padding: 20;">
+                            <children>
+                                <ImageView fx:id="aracResmi" fitHeight="200.0" fitWidth="440.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 2);" />
+
+                                <Label text="Temel Bilgiler" textFill="#2980b9"><font><Font name="System Bold" size="14.0" /></font></Label>
+                                <GridPane hgap="10.0" vgap="10.0">
+                                    <columnConstraints><ColumnConstraints minWidth="100.0" /><ColumnConstraints hgrow="ALWAYS" /></columnConstraints>
+                                    <children>
+                                        <Label text="Marka/Model:" style="-fx-font-weight: bold;" /> <Label fx:id="lblMarkaModel" text="..." GridPane.columnIndex="1" />
+                                        <Label text="Plaka:" style="-fx-font-weight: bold;" GridPane.rowIndex="1" /> <Label fx:id="lblPlaka" text="..." GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                        <Label text="Yıl/KM:" style="-fx-font-weight: bold;" GridPane.rowIndex="2" /> <Label fx:id="lblYilKm" text="..." GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                        <Label text="Yakıt/Vites:" style="-fx-font-weight: bold;" GridPane.rowIndex="3" /> <Label fx:id="lblYakitVites" text="..." GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                    </children>
+                                </GridPane>
+                                <Separator />
+
+                                <Label text="Kiralama Bilgileri" textFill="#27ae60"><font><Font name="System Bold" size="14.0" /></font></Label>
+                                <GridPane hgap="10.0" vgap="10.0">
+                                    <columnConstraints><ColumnConstraints minWidth="100.0" /><ColumnConstraints hgrow="ALWAYS" /></columnConstraints>
+                                    <children>
+                                        <Label text="Günlük Ücret:" style="-fx-font-weight: bold;" /> <Label fx:id="lblUcret" text="..." textFill="#27ae60" style="-fx-font-weight: bold;" GridPane.columnIndex="1" />
+                                        <Label text="Durum:" style="-fx-font-weight: bold;" GridPane.rowIndex="1" /> <Label fx:id="lblDurum" text="..." GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    </children>
+                                </GridPane>
+                                <Separator />
+
+                                <Label text="Sahip ve Konum" textFill="#e67e22"><font><Font name="System Bold" size="14.0" /></font></Label>
+                                <GridPane hgap="10.0" vgap="10.0">
+                                    <columnConstraints><ColumnConstraints minWidth="100.0" /><ColumnConstraints hgrow="ALWAYS" /></columnConstraints>
+                                    <children>
+                                        <Label text="Sahip:" style="-fx-font-weight: bold;" /> <Label fx:id="lblSahip" text="..." GridPane.columnIndex="1" />
+                                        <Label text="Telefon:" style="-fx-font-weight: bold;" GridPane.rowIndex="1" /> <Label fx:id="lblTelefon" text="..." GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                        <Label text="Adres:" style="-fx-font-weight: bold;" GridPane.rowIndex="2" /> <Label fx:id="lblAdres" text="..." GridPane.columnIndex="1" GridPane.rowIndex="2" wrapText="true" />
+                                    </children>
+                                </GridPane>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+
+                <HBox alignment="CENTER" style="-fx-padding: 10;">
+                    <Button fx:id="btnKapat" text="Kapat" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-pref-width: 100;" />
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

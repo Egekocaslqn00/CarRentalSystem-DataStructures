@@ -1,0 +1,34 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Maven
+target/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Backup
+*.bak
+*.backup
+*~
+
+# Logs
+*.log
+logs/
+
+# Local properties
+local.properties

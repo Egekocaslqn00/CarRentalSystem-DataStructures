@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #f5f5f5;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="arac.KiralamaDialog">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="500.0" spacing="15.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="500.0" style="-fx-background-color: #2c3e50;">
+               <children>
+                  <Label text="Araç Kiralama" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox spacing="15.0">
+               <children>
+                  <VBox spacing="5.0">
+                     <children>
+                        <Label text="Müşteri Adı:" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="musteriAdiField" promptText="Müşteri adını girin" />
+                     </children>
+                  </VBox>
+                  <VBox spacing="5.0">
+                     <children>
+                        <Label text="Başlangıç Tarihi:" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <DatePicker fx:id="baslangicTarihiPicker" />
+                     </children>
+                  </VBox>
+                  <VBox spacing="5.0">
+                     <children>
+                        <Label text="Kaç Gün Kiralamak İstersiniz?" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Spinner fx:id="gunSayisiSpinner" prefWidth="100.0" />
+                              <Label text="gün" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <Label fx:id="toplamUcretLabel" style="-fx-font-size: 14; -fx-font-weight: bold; -fx-text-fill: #27ae60;" text="Toplam Ücret: 0.00 ₺" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            <HBox alignment="CENTER_RIGHT" spacing="10.0">
+               <children>
+                  <Button fx:id="btnKirala" mnemonicParsing="false" onAction="#btnKiralaAction" prefWidth="120.0" style="-fx-font-size: 12; -fx-padding: 10; -fx-text-fill: white; -fx-background-color: #27ae60;" text="Kirala" />
+                  <Button fx:id="btnIptal" mnemonicParsing="false" onAction="#btnIptalAction" prefWidth="120.0" style="-fx-font-size: 12; -fx-padding: 10; -fx-background-color: #e74c3c; -fx-text-fill: white;" text="İptal" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

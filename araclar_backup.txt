@@ -1,0 +1,5 @@
+550e8400-e29b-41d4-a716-446655440000|Toyota|Corolla|34ABC123|2020|Gümüş|Benzin|45000|250.0|Mevcut|2024-01-15|Ali Yılmaz|05551234567|İstanbul, Kadıköy|Ekonomi|5|Otomatik|true|false|İyi durumda, klima çalışıyor
+550e8400-e29b-41d4-a716-446655440001|Honda|Civic|34XYZ789|2019|Siyah|Benzin|52000|280.0|Mevcut|2024-02-20|Ayşe Kaya|05559876543|Ankara, Çankaya|Komfort|5|Otomatik|true|true|Yeni lastik takılı
+550e8400-e29b-41d4-a716-446655440002|Volkswagen|Golf|35DEF456|2021|Beyaz|Diesel|38000|300.0|Kiralanmış|2024-03-10|Mehmet Şen|05552223333|İzmir, Alsancak|Komfort|5|Manuel|true|false|Dikkat: Yakıt ekonomik
+550e8400-e29b-41d4-a716-446655440003|BMW|320i|34GHI789|2018|Kırmızı|Benzin|65000|400.0|Bakımda|2024-01-05|Fatih Demir|05554445555|İstanbul, Beşiktaş|Lux|5|Otomatik|true|true|Motor revizyonunda
+550e8400-e29b-41d4-a716-446655440004|Ford|Focus|35JKL012|2022|Mavi|Benzin|28000|220.0|Mevcut|2024-04-12|Zeynep Aydın|05556667777|Bursa, Nilüfer|Ekonomi|5|Otomatik|true|false|Yeni araç, az kullanılmış

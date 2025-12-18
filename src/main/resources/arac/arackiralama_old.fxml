@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #f5f5f5;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="arac.AracKiralamaController">
+   <children>
+      <VBox prefHeight="768.0" prefWidth="1024.0" spacing="10.0">
+         <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="1024.0" spacing="10.0" style="-fx-background-color: #2c3e50;">
+               <children>
+                  <Label text="Araç Kiralama Yönetim Sistemi" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button fx:id="minimizeButton" mnemonicParsing="false" style="-fx-font-size: 14; -fx-padding: 5;" text="−" />
+                  <Button fx:id="closeButton" mnemonicParsing="false" style="-fx-font-size: 14; -fx-padding: 5;" text="✕" />
+               </children>
+            </HBox>
+            <HBox prefHeight="700.0" prefWidth="1024.0" spacing="10.0">
+               <children>
+                  <VBox prefHeight="700.0" prefWidth="250.0" spacing="10.0" style="-fx-border-color: #ddd; -fx-border-width: 0 1 0 0;">
+                     <children>
+                        <Label text="ARAMA FİLTRELERİ" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Separator prefWidth="200.0" />
+                        <Label text="Marka:" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="markaAudi" mnemonicParsing="false" text="Audi" />
+                        <CheckBox fx:id="markaBMW" mnemonicParsing="false" text="BMW" />
+                        <CheckBox fx:id="markaFord" mnemonicParsing="false" text="Ford" />
+                        <CheckBox fx:id="markaHonda" mnemonicParsing="false" text="Honda" />
+                        <CheckBox fx:id="markaHyundai" mnemonicParsing="false" text="Hyundai" />
+                        <CheckBox fx:id="markaKia" mnemonicParsing="false" text="Kia" />
+                        <CheckBox fx:id="markaMercedes" mnemonicParsing="false" text="Mercedes" />
+                        <CheckBox fx:id="markaNissan" mnemonicParsing="false" text="Nissan" />
+                        <CheckBox fx:id="markaOpel" mnemonicParsing="false" text="Opel" />
+                        <CheckBox fx:id="markaToyota" mnemonicParsing="false" text="Toyota" />
+                        <CheckBox fx:id="markaVolkswagen" mnemonicParsing="false" text="Volkswagen" />
+                        <Separator prefWidth="200.0" />
+                        <Label text="Yakıt Tipi:" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="yakitBenzin" mnemonicParsing="false" text="Benzin" />
+                        <CheckBox fx:id="yakitDiesel" mnemonicParsing="false" text="Diesel" />
+                        <CheckBox fx:id="yakitHibrid" mnemonicParsing="false" text="Hibrid" />
+                        <CheckBox fx:id="yakitElektrik" mnemonicParsing="false" text="Elektrik" />
+                        <CheckBox fx:id="yakitLPG" mnemonicParsing="false" text="LPG" />
+                        <Separator prefWidth="200.0" />
+                        <Label text="Sınıf:" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="sinifEkonomi" mnemonicParsing="false" text="Ekonomi" />
+                        <CheckBox fx:id="sinifKomfort" mnemonicParsing="false" text="Komfort" />
+                        <CheckBox fx:id="sinifLux" mnemonicParsing="false" text="Lux" />
+                        <CheckBox fx:id="sinifSUV" mnemonicParsing="false" text="SUV" />
+                        <Separator prefWidth="200.0" />
+                        <Label text="Günlük Ücret (TL):" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="ucretMinField" promptText="Min" />
+                        <TextField fx:id="ucretMaxField" promptText="Max" />
+                        <Separator prefWidth="200.0" />
+                        <Label text="Durum:" textFill="#2c3e50">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="durumMevcut" mnemonicParsing="false" text="Mevcut" />
+                        <CheckBox fx:id="durumKiralanmis" mnemonicParsing="false" text="Kiralanmış" />
+                        <CheckBox fx:id="durumBakimda" mnemonicParsing="false" text="Bakımda" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox prefHeight="700.0" prefWidth="774.0" spacing="10.0">
+                     <children>
+                        <HBox prefHeight="50.0" prefWidth="774.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#btnEkle" prefWidth="120.0" style="-fx-font-size: 12; -fx-padding: 10;" text="Araç Ekle" />
+                              <Button mnemonicParsing="false" onAction="#btnGuncelle" prefWidth="120.0" style="-fx-font-size: 12; -fx-padding: 10;" text="Güncelle" />
+                              <Button mnemonicParsing="false" onAction="#btnAra" prefWidth="120.0" style="-fx-font-size: 12; -fx-padding: 10;" text="Ara" />
+                              <Button fx:id="btnTemizle" mnemonicParsing="false" prefWidth="120.0" style="-fx-font-size: 12; -fx-padding: 10;" text="Temizle" />
+                              <Button fx:id="btnBilgi" mnemonicParsing="false" prefWidth="120.0" style="-fx-font-size: 12; -fx-padding: 10;" text="Bilgi" />
+                              <Button fx:id="btnSil" mnemonicParsing="false" prefWidth="120.0" style="-fx-font-size: 12; -fx-padding: 10; -fx-text-fill: white; -fx-background-color: #e74c3c;" text="Sil" />
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                           </padding>
+                        </HBox>
+                        <TableView fx:id="resultTableView" prefHeight="650.0" prefWidth="774.0">
+                           <columns>
+                              <TableColumn fx:id="markaColumn" prefWidth="100.0" text="Marka" />
+                              <TableColumn fx:id="modelColumn" prefWidth="100.0" text="Model" />
+                              <TableColumn fx:id="plakaColumn" prefWidth="100.0" text="Plaka" />
+                              <TableColumn fx:id="yilColumn" prefWidth="80.0" text="Yıl" />
+                              <TableColumn fx:id="ucretColumn" prefWidth="100.0" text="Günlük Ücret" />
+                              <TableColumn fx:id="durumColumn" prefWidth="100.0" text="Durum" />
+                           </columns>
+                        </TableView>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="0.0" right="0.0" top="0.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

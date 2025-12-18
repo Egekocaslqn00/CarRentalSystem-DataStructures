@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #f5f5f5;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="arac.VeriEkleGuncelleController">
+   <children>
+      <VBox prefHeight="768.0" prefWidth="1024.0" spacing="10.0">
+         <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="1024.0" spacing="10.0" style="-fx-background-color: #2c3e50;">
+               <children>
+                  <Label text="Araç Ekle / Güncelle" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button fx:id="minimizeButton" mnemonicParsing="false" style="-fx-font-size: 14; -fx-padding: 5;" text="−" />
+                  <Button fx:id="closeButton" mnemonicParsing="false" style="-fx-font-size: 14; -fx-padding: 5;" text="✕" />
+               </children>
+            </HBox>
+            <ScrollPane prefHeight="700.0" prefWidth="1024.0" style="-fx-background-color: #f5f5f5;">
+               <content>
+                  <VBox prefHeight="900.0" prefWidth="1000.0" spacing="15.0">
+                     <children>
+                        <HBox spacing="20.0">
+                           <children>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Marka:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="markaField" promptText="Araç markası" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Model:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="modelField" promptText="Araç modeli" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Plaka:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="plakaField" promptText="Araç plakası" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox spacing="20.0">
+                           <children>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Yıl:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="yilField" promptText="Araç yılı" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Renk:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="renkField" promptText="Araç rengi" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Yakıt Tipi:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="yakitTipiComboBox" prefWidth="150.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox spacing="20.0">
+                           <children>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Kilometre:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="kilometreField" promptText="Araç kilometresi" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Günlük Ücret (TL):" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="gunlukUcretField" promptText="Günlük kiralama ücreti" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Durum:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="durumComboBox" prefWidth="150.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox spacing="20.0">
+                           <children>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Kayıt Tarihi:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker fx:id="kayitTarihiPicker" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Sınıf:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="sinifiComboBox" prefWidth="150.0" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Yolcu Sayısı:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="yolcuSayisiComboBox" prefWidth="150.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox spacing="20.0">
+                           <children>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Vites Tipi:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="vitesTipiComboBox" prefWidth="150.0" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Sahip Adı:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="sahipField" promptText="Araç sahibinin adı" />
+                                 </children>
+                              </VBox>
+                              <VBox spacing="5.0" prefWidth="300.0">
+                                 <children>
+                                    <Label text="Telefon:" textFill="#2c3e50">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="telefonField" promptText="İletişim telefonu" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <VBox spacing="5.0">
+                           <children>
+                              <Label text="Adres:" textFill="#2c3e50">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="adresField" promptText="Araç sahibinin adresi" />
+                           </children>
+                        </VBox>
+                        <HBox spacing="20.0">
+                           <children>
+                              <CheckBox fx:id="klimaCheckBox" mnemonicParsing="false" text="Klima Var" />
+                              <CheckBox fx:id="otoparkCheckBox" mnemonicParsing="false" text="Otopark Var" />
+                           </children>
+                        </HBox>
+                        <VBox spacing="10.0" style="-fx-border-color: #e0e0e0; -fx-border-radius: 5; -fx-padding: 10;">
+                           <children>
+                              <Label text="Araç Resmi:" textFill="#2c3e50">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="btnResimSec" mnemonicParsing="false" prefWidth="150.0" style="-fx-font-size: 12; -fx-padding: 10; -fx-background-color: #3498db; -fx-text-fill: white;" text="Bilgisayardan Resim Seç" />
+                              <VBox fx:id="imagePreviewBox" alignment="CENTER" prefHeight="120.0" style="-fx-border-color: #cccccc; -fx-border-radius: 5; -fx-background-color: #f9f9f9;" />
+                           </children>
+                        </VBox>
+                        <VBox spacing="5.0">
+                           <children>
+                              <Label text="Notlar:" textFill="#2c3e50">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="notlarArea" prefHeight="100.0" prefWidth="200.0" wrapText="true" />
+                           </children>
+                        </VBox>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#btnKaydet" prefWidth="150.0" style="-fx-font-size: 12; -fx-padding: 10; -fx-text-fill: white; -fx-background-color: #27ae60;" text="Kaydet" />
+                              <Button mnemonicParsing="false" onAction="#btnTemizle" prefWidth="150.0" style="-fx-font-size: 12; -fx-padding: 10;" text="Temizle" />
+                              <Button mnemonicParsing="false" onAction="#btnTemizle" prefWidth="150.0" style="-fx-font-size: 12; -fx-padding: 10;" text="İptal" />
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
